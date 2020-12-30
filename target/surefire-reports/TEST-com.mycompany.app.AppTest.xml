@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.376" tests="25" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.278" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="TW"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Acer-01\AppData\Local\Temp\surefire941544733592444161\surefirebooter4274820593834137476.jar C:\Users\Acer-01\AppData\Local\Temp\surefire941544733592444161 2020-12-31T03-37-38_191-jvmRun1 surefire1468503164660514875tmp surefire_03757459603220214930tmp"/>
+    <property name="sun.java.command" value="C:\Users\Acer-01\AppData\Local\Temp\surefire3686768909774117034\surefirebooter9078226401895326902.jar C:\Users\Acer-01\AppData\Local\Temp\surefire3686768909774117034 2020-12-31T04-12-00_949-jvmRun1 surefire4838687223085589856tmp surefire_01438582156448544021tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Acer-01\Desktop\SE_hw4\my-app\target\test-classes;C:\Users\Acer-01\Desktop\SE_hw4\my-app\target\classes;C:\Users\Acer-01\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Acer-01\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Acer-01\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Acer-01\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Acer-01\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Acer-01\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Acer-01\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.2\junit-jupiter-params-5.3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Acer-01"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Acer-01\AppData\Local\Temp\surefire941544733592444161\surefirebooter4274820593834137476.jar;C:\\Users\\Acer-01\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Acer-01\AppData\Local\Temp\surefire3686768909774117034\surefirebooter9078226401895326902.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,29 +60,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[1]" classname="com.mycompany.app.AppTest" time="0.055"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[2]" classname="com.mycompany.app.AppTest" time="0"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[3]" classname="com.mycompany.app.AppTest" time="0.003"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[4]" classname="com.mycompany.app.AppTest" time="0.004"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[5]" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[1]" classname="com.mycompany.app.AppTest" time="0.066"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[2]" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[3]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[4]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[5]" classname="com.mycompany.app.AppTest" time="0.004"/>
   <testcase name="test_grade_by_boundary_value_analysis{int, char}[6]" classname="com.mycompany.app.AppTest" time="0"/>
   <testcase name="test_grade_by_boundary_value_analysis{int, char}[7]" classname="com.mycompany.app.AppTest" time="0"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[8]" classname="com.mycompany.app.AppTest" time="0.004"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[9]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[8]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[9]" classname="com.mycompany.app.AppTest" time="0.002"/>
   <testcase name="test_grade_by_boundary_value_analysis{int, char}[10]" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[11]" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[11]" classname="com.mycompany.app.AppTest" time="0.001"/>
   <testcase name="test_grade_by_boundary_value_analysis{int, char}[12]" classname="com.mycompany.app.AppTest" time="0.003"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[13]" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[14]" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[15]" classname="com.mycompany.app.AppTest" time="0.007"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[16]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[13]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[14]" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[15]" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[16]" classname="com.mycompany.app.AppTest" time="0.002"/>
   <testcase name="test_grade_by_boundary_value_analysis{int, char}[17]" classname="com.mycompany.app.AppTest" time="0.001"/>
-  <testcase name="test_grade_by_boundary_value_analysis{int, char}[18]" classname="com.mycompany.app.AppTest" time="0"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[1]" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="test_grade_by_boundary_value_analysis{int, char}[18]" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[1]" classname="com.mycompany.app.AppTest" time="0.003"/>
   <testcase name="test_grade_by_equivalence_partitioning{int, char}[2]" classname="com.mycompany.app.AppTest" time="0.001"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[3]" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[4]" classname="com.mycompany.app.AppTest" time="0"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[5]" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[6]" classname="com.mycompany.app.AppTest" time="0"/>
-  <testcase name="test_grade_by_equivalence_partitioning{int, char}[7]" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[3]" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[4]" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[5]" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[6]" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_grade_by_equivalence_partitioning{int, char}[7]" classname="com.mycompany.app.AppTest" time="0.001"/>
 </testsuite>
