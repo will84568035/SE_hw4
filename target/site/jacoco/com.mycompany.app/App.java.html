@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>App.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">my-app</a> &gt; <a href="index.source.html" class="el_package">com.mycompany.app</a> &gt; <span class="el_source">App.java</span></div><h1>App.java</h1><pre class="source lang-java linenums">package com.mycompany.app;
+
+<span class="fc" id="L3">public class App </span>
+{
+    public static char letterGrade(int score) {
+        char grade;
+<span class="fc bfc" id="L7" title="All 4 branches covered.">        if (score &lt;0 || score &gt; 100)</span>
+<span class="fc" id="L8">        grade = 'X';</span>
+<span class="pc bpc" id="L9" title="1 of 4 branches missed.">        else if (score&gt;=90 &amp;&amp; score &lt;=100)</span>
+<span class="fc" id="L10">        grade = 'A';</span>
+<span class="pc bpc" id="L11" title="1 of 4 branches missed.">        else if (score&gt;=80 &amp;&amp; score &lt;90)</span>
+<span class="fc" id="L12">        grade = 'B';</span>
+<span class="pc bpc" id="L13" title="1 of 4 branches missed.">        else if (score&gt;=70 &amp;&amp; score &lt;80)</span>
+<span class="fc" id="L14">        grade = 'C';</span>
+<span class="pc bpc" id="L15" title="1 of 4 branches missed.">        else if (score&gt;=60 &amp;&amp; score &lt;70)</span>
+<span class="fc" id="L16">        grade = 'D';</span>
+        else
+<span class="fc" id="L18">        grade ='F';</span>
+<span class="fc" id="L19">        return grade;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
